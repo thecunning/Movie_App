@@ -1,0 +1,123 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Segoe UI';
+}
+.barre_gauche{
+    padding-left:0px;
+    float: left;
+    height: 100%;
+    width: 300px;
+    background-color: #EFF3F4;
+}
+.icone{
+    margin-left: 75px;
+}
+.arrow{
+    margin-left: 100px;
+    padding-left: 75px;
+}
+.carousel-item img{
+    border-radius:10px;
+}
+.bloc_carousel{
+    margin-top:10px;
+    margin-right: 20px;
+    float: right;
+    height: 50%;
+    width: 700px;
+    padding: 20px 20px 20px 20px;
+}
+ul{
+    list-style-type: none;
+}
+.menu li{
+    font-family: 'Segoe UI';
+    margin-top:30px;
+    color: #343a40;
+    font-weight: bold;
+}
+.barre_recherche{
+    padding: 10px 10px 10px 10px;
+}
+input[type="text"]{
+    padding-right:200px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.top_barre{
+    display: inline;
+    height: auto;
+    width: auto;
+}
+.affiche{
+    float: right;
+    width: 193px;
+    height: 200px;
+    align-items: center;
+}
+.fa-bookmark,.fa-bell,.fa-search{
+    color: grey;
+    display: inline;
+    margin: 20px 20px 20px 20px;
+}
+.w-100 {
+    width: 100% !important;
+    height: 300px;
+}
+.group_affiche{
+    width: 100% !important;
+    margin-left: 10px;
+}
+.fa-chevron-left , .fa-chevron-right{
+    color: gray;
+}
+.barre_affiche{
+    float: right;
+    display: inline;
+    height: 30px;
+    width: 75%;
+    margin: 20px 20px 20px 20px;
+    padding-left: 50px;
+}
+.menu li :active{
+    color: #FF0000;
+    font-family: 'Verdana';
+    font-weight: lighter;
+    border-right: 4px solid #FF0000;
+}
+.menu li a{
+    font-size: small;
+    color: #343a40;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+.menu li {
+   margin-top: 10px;
+}
+.stream{
+    z-index: 1;
+    position: absolute;
+    float:right;
+    top: 200px;
+    right: 650px;
+    height: 150px;
+    width: 200px;
+    color:white;
+}
+.affiche img{
+    background-size:contain;
+}
+.img_login{
+    background-size: cover;
+}
+.cover{
+    width:400px ;
+    height:321px;
+    float:left;
+}
